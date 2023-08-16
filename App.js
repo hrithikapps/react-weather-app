@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import Body from "./src/components/Body";
 const AppLayout = () => {
   return (
     <>
-      <h1>Hello world</h1>
+      <Body />
     </>
   );
 };
