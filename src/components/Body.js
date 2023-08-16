@@ -16,7 +16,7 @@ function Body() {
       setWeather(data);
 
       // dynamic bg
-      const threshold = units === "metric" ? 20 : 60;
+      const threshold = units === "metric" ? 20 : 68;
       if (data.temp <= threshold) setBg(coldBg);
       else setBg(hotBg);
     };
