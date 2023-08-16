@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "react-weather-app",
+  "version": "1.0.0",
+  "description": "This is a weather App made using ReactJS ",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrithikapps/reactjs-weather-app.git"
+  },
+  "author": "Kumar Hrithik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrithikapps/reactjs-weather-app/issues"
+  },
+  "homepage": "https://github.com/hrithikapps/reactjs-weather-app#readme"
+}
